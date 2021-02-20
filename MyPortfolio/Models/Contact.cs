@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace MyPortfolio.Models
 {
     public class Contact
     {
-
         [Required(ErrorMessage ="این فیلد اجباری است")]
         [MinLength(3,ErrorMessage = "حداقل طول نام 3 کارکتر است")]
         [MaxLength(100,ErrorMessage = ".حداکثر طول نام 100 کارکتر است")]
