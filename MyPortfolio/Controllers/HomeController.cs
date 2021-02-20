@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using MyPortfolio.Models;
+using System;
 using System.Diagnostics;
 
 namespace MyPortfolio.Controllers
@@ -12,10 +14,27 @@ namespace MyPortfolio.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult Contact()
         {
-            return View();
+            var model = new Contact();
+            return View(model);
         }
+
+        //[HttpPost]
+        //public JsonResult Contact(IFormCollection form)
+        //{
+        //    var name = form["name"];
+        //    return Json(data: Ok());
+        //}
+
+        [HttpPost]
+        public JsonResult Contact(Contact form )
+        {
+            Console.WriteLine(form.ToString());
+            return Json(data: Ok());
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
