@@ -6238,11 +6238,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mohammad\\source\\repos\\My_Protfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\Desktop windos old\\Project of work\\My_Protfolio\\MyPortfolio\\MyPortfolio.csproj",
       "projectName": "MyPortfolio",
-      "projectPath": "C:\\Users\\Mohammad\\source\\repos\\My_Protfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "projectPath": "C:\\Users\\Mohammad\\Desktop\\Desktop windos old\\Project of work\\My_Protfolio\\MyPortfolio\\MyPortfolio.csproj",
       "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mohammad\\source\\repos\\My_Protfolio\\MyPortfolio\\obj\\",
+      "outputPath": "C:\\Users\\Mohammad\\Desktop\\Desktop windos old\\Project of work\\My_Protfolio\\MyPortfolio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
